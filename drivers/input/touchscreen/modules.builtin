@@ -1,0 +1,5 @@
+kernel/drivers/input/touchscreen/of_touchscreen.ko
+kernel/drivers/input/touchscreen/ads7846.ko
+kernel/drivers/input/touchscreen/edt-ft5x06.ko
+kernel/drivers/input/touchscreen/ft5x06_ts.ko
+kernel/drivers/input/touchscreen/imx6ul_tsc.ko
