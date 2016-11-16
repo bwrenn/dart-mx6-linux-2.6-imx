@@ -213,8 +213,9 @@ CONFIG_I2C_IMX=y
 CONFIG_SPI=y
 CONFIG_SPI_GPIO=y
 CONFIG_SPI_IMX=y
-# !!!bwrenn-add spidev
+# !!!bwrenn-add-start
 CONFIG_SPI_SPIDEV=y
+# !!!bwrenn-add-end
 CONFIG_GPIO_SYSFS=y
 CONFIG_GPIO_MAX732X=y
 CONFIG_GPIO_PCA953X=y
