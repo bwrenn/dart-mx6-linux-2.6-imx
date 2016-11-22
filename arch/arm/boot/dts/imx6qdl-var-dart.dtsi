@@ -819,6 +819,10 @@
                compatible = "spidev";
                spi-max-frequency = <12000000>;
                reg = <0>;
+
+               interrupt-parent = <&gpio1>;
+               interrupts = <1 IRQ_TYPE_EDGE_FALLING>;
+               wakeup-gpios = <&gpio1 1 GPIO_ACTIVE_LOW>
         };
 /*
         chip2: spidev@1 {
